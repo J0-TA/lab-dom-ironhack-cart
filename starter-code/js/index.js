@@ -38,8 +38,8 @@ setCreate()
 
 function setDelete () {
   let rowToDelete
-  document.querySelectorAll(`pruduct`).forEach(product => {
-    product.querySelector(`btn btn-delete`).onclick = function (e) {
+  document.querySelectorAll(`.pruduct`).forEach(product => {
+    product.querySelector(`.btn btn-delete`).onclick = function (e) {
     e.parentNode.parentNode.removeChild(e.parentNode);
     }
   })
